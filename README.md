@@ -1,11 +1,12 @@
-##   
-Vanilla.js Counter
+##   Vanilla.js Counter
 
 This project is a simple counter application built using HTML, CSS, and **vanilla JavaScript**. Its primary purpose is to **practice and solidify vanilla JavaScript skills**, particularly focusing on:
 
 -   **DOM manipulation**
 -   **Event handling**
 -   **State management**
+
+![counter screenshot](./screenshot-counter.png)
 
 This application serves as a learning exercise and a stepping stone for further exploration and development using vanilla JavaScript.
 
