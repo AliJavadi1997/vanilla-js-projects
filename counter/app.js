@@ -1,16 +1,24 @@
-const number = document.getElementById("number");
-const increase = document.getElementById("increase");
-const decrease = document.getElementById("decrease");
-const reset = document.getElementById("reset");
+const counterEl = document.getElementById("number");
+let count = 0;
 
 increase.addEventListener("click", () => {
-  number.innerHTML = Number(number.innerHTML) + 1;
+  count++; // Increment count
+  updateCounterDisplay();
 });
 
 decrease.addEventListener("click", () => {
-  number.innerHTML = Number(number.innerHTML) - 1;
+  if (count > 0) {
+    // Prevent going below 0
+    count--;
+  }
+  updateCounterDisplay();
 });
 
 reset.addEventListener("click", () => {
-  number.innerHTML = 1;
+  count = 0;
+  updateCounterDisplay();
 });
+
+function updateCounterDisplay() {
+  counterEl.textContent = count;
+}
