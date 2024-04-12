@@ -17,7 +17,7 @@ body {
   box-shadow: 10px 10px 25px #ccd1d3, -10px -10px 25px #fff;
 }
 
-.number {
+#number {
   font-size: 5rem;
   color: #4a4e69;
   text-shadow: 2px 2px 2px #ccd1d3;
@@ -32,7 +32,7 @@ button {
   background: linear-gradient(160deg, #fff, #e2e8ea);
   border-radius: 8px;
   color: #4a4e69;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
