@@ -1,0 +1,28 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+} */
+
+/* body {
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
+.wrapper {
+  width: 100%;
+  min-height: 5000px;
+  background: url("./mountain.jpg") top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 100px;
+  color: #fefefe;
+  text-align: center;
+}
+
+
